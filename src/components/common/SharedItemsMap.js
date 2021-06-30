@@ -55,31 +55,9 @@ function SharedItemsMap() {
   console.log('original state', sharedItems)
   console.log('filtered state', selectedSharedItems)
 
-  // useEffect(() => {
-  //   const filterSharedItems = () => {
-  //     if (sharedItems && selectedSharedItems) {
-  //       console.log('before filter:', selectedSharedItems)
-  //       setSelectedSharedItems(sharedItems.map(sharedItemSubArray => {
-  //         sharedItemSubArray.filter(sharingItem => {
-  //           console.log('boolean:', !filterValues)
-  //           if (!filterValues) {
-  //             return sharingItem
-  //           } else if (sharingItem.item.name.toLowerCase().includes(filterValues.toLowerCase())) {
-  //             return sharingItem
-  //           }
-  //         })
-  //       }))
-  //     } else {
-  //       return
-  //     }
-  //   }
-  //   filterSharedItems()
-  //   console.log('after map.filter:', selectedSharedItems)
-  // }, [filterValues, sharedItems])
 
   const searchTyping = (e) => {
     setFilterValues(e.target.value)
-    // { ...filterValues, searchValue: e.target.value }
     console.log(e.target.value)
   }
 
