@@ -1,17 +1,18 @@
 import React, { useEffect, useState } from 'react'
-import ReactMapGl, { Marker, Popup } from 'react-map-gl'
+import ReactMapGl, { Popup } from 'react-map-gl'
+// import ReactMapGl, { Marker } from 'react-map-gl'
 
 import { getSharedInventoryItems } from '../../lib/api'
 import ItemInfo from './map/ItemInfo'
 import Pins from './map/Pins'
 const mapBoxAccessToken = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
 
-const bounds = [
-  // southwest
-  [51.271051, -0.515036],
-  // northeast
-  [51.662160, 0.250806]
-]
+// const bounds = [
+//   // southwest
+//   [51.271051, -0.515036],
+//   // northeast
+//   [51.662160, 0.250806]
+// ]
 
 function SharedItemsMap() {
   const [viewport, setViewport] = useState({

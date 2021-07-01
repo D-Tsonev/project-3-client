@@ -26,6 +26,7 @@ function ItemIndex() {
 
   console.log(items)
   console.log(selectedItems)
+  console.log(searchValue)
 
   const filterItems = (search) => {
     setSelectedItems(items.filter(item => {

@@ -1,8 +1,9 @@
 import axios from 'axios'
 import jwt from 'jsonwebtoken'
 import { getToken } from './auth'
+import { baseUrl } from '../config'
 
-const baseUrl = '/api'
+
 
 function headers() {
   return {

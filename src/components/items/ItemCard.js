@@ -1,10 +1,10 @@
-import { useHistory } from 'react-router'
+// import { useHistory } from 'react-router'
 import { createInventoryItem } from '../../lib/api'
 import { useForm } from '../../hooks/useForm'
 import React from 'react'
 
 function ItemCard({ name, category, icon, id }) {
-  const history = useHistory()
+  // const history = useHistory()
   const { formdata, formErrors, handleChange, setFormErrors } = useForm({
     quantity: '',
     expiryDate: '',
