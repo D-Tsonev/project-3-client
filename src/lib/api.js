@@ -5,7 +5,6 @@ import { baseUrl } from '../config'
 import { getUserId } from './auth'
 
 
-
 function headers() {
   return {
     headers: { Authorization: `Bearer ${getToken()}` },
