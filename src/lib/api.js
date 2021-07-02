@@ -1,7 +1,8 @@
 import axios from 'axios'
-import jwt from 'jsonwebtoken'
+// import jwt from 'jsonwebtoken'
 import { getToken } from './auth'
 import { baseUrl } from '../config'
+import { getUserId } from './auth'
 
 
 
@@ -9,15 +10,6 @@ function headers() {
   return {
     headers: { Authorization: `Bearer ${getToken()}` },
   }
-}
-
-function getUserId() {
-  const token = getToken()
-  const decoded = jwt.verify(token, 'abubakarjonasdimitar')
-  const userId = decoded.userId
-  console.log(token)
-  console.log(userId)
-  return userId
 }
 
 export function getAllItems() {
