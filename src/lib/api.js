@@ -21,10 +21,12 @@ function getUserId() {
 }
 
 export function getAllItems() {
+  console.log(baseUrl)
   return axios.get(`${baseUrl}/items`)
 }
 
 export function getAllRecipes() {
+  console.log(baseUrl)
   return axios.get(`${baseUrl}/recipes`)
 }
 
