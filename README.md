@@ -250,7 +250,7 @@ While my group worked on the recipe, inventory and the shared food pages I took 
 
 
 
-<img src='./src/assest/register.png' width="4850" height="350" />    <img src='./src/assest/login.png' width="485" height="350" /> 
+<img src='./src/assest/register.png' width="485" height="350" />    <img src='./src/assest/login.png' width="485" height="350" /> 
 
 
 React Hooks were used for both forms.
