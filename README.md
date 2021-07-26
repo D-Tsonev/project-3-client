@@ -2,7 +2,7 @@
 
 # Food-Invy A Fullstack MERN App
 
-<img src= './src/assest/demo.gif' width="500" />
+<img src= './src/assest/demo.gif' width="1000"  />
 
 ## Overview
 
