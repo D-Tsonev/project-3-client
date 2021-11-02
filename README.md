@@ -8,16 +8,26 @@
 
 An app that keeps track of users' food inventory by monitoring expiry date, quantity and additional options to share food with other people.
 
-This project has been developed during General Assembly course, with the goal of design a full-stack MERN app using over 10 days time.
+This project has been developed during the General Assembly course, with the goal of designing a full-stack MERN app in 10 days' time.
 
 
 ## Members 
+
+- Dimitar Tsonev - [GitHub](https://github.com/D-Tsonev)
 
 - Abubakar Siddique - [GitHub](https://github.com/AbuBakr-S)
 
 - Jonas Bolduan  [GitHub](https://github.com/jonasbee)
 
-- Dimitar Tsonev - [GitHub](https://github.com/D-Tsonev)
+## The Brief 
+
+- One week to plan, build, and test our most advanced project to date with achievable scope and a focus on creating a professional finished product.
+- Make it a full-stack application by making our backend and frontend.
+- Use an Express API to serve our data from a Mongo database.
+- Consume our API with a separate frontend built with React.
+- Be a complete product with multiple relationships and CRUD functionality for multiple models.
+- Implement thoughtful user stories/wireframes for MVP and additional features.
+- Have a visually impressive design.
 
 ## Deployment
 
@@ -33,15 +43,7 @@ This project has been developed during General Assembly course, with the goal of
 
 - [Repository link Server](https://github.com/D-Tsonev/project-3-server)
 
-## The Brief 
 
-- One week to plan, build, and test our most advanced project to date with achievable scope and a focus on creating a professional finished product.
-- Make it a full-stack application by making our backend and frontend.
-- Use an Express API to serve our data from a Mongo database.
-- Consume our API with a separate frontend built with React.
-- Be a complete product with multiple relationships and CRUD functionality for multiple models.
-- Implement thoughtful user stories/wireframes for MVP and additional features.
-- Have a visually impressive design.
 
 
 ## Technologies Used
@@ -80,7 +82,7 @@ This project has been developed during General Assembly course, with the goal of
 
 ## General Approach & Planning
 
-Three of us worked together to plan out our Minimum Viable Poduct and used Excalidraw for white boarding.
+The three of us worked together to plan out our Minimum Viable Poduct and used Excalidraw for white boarding.
 
 We divided up the tasks needed to set up the backend and took turns writing seed data to populate the site.
 
@@ -96,7 +98,7 @@ We started by setting up much of the boilerplate backend views/controllers and m
 
 ## Models
 
-We eventually created models for the User, to enable registration and login.Also models for the items themselves as well as the user's inventory items and recipes.
+We eventually created models for the User, to enable registration and login. Also models for the items themselves as well as the user's inventory items and recipes.
 
 - User
 
@@ -203,8 +205,7 @@ async function create(req, res, next) {
 }
 
 ```
-
-We created recipe generator(finder), looping through array of inventory items(ingredients) and returning recipe suggestion if the user have all ingreadincs needed in his inventory.
+We created a recipe generator(finder), looping through an array of inventory items(ingredients) and returning recipe suggestions if the user has all ingredients needed in his inventory
 
 ```js 
 
@@ -337,24 +338,36 @@ function Register() {
       setFormErrors(err.response.data.errors)
   ```
 
-# Challenges
+
+## Wins
+
+This project was one of my favourites where I had the opportunity to learn so much.
+I loved working with React and MongoDB. 
+
+Teamwork: We got on very well, had a good workflow and managed to reach our MVP in time. We were able to support each other and work together towards resolving any issues we ran into.
+
+I struggled with implementing personal inventory on the back end, but I am very pleased with setting this.
+
+I learned how to work on a team project with Github also I was able to help other teammates with their git issues like merge branches, conflicts, git push.
+
+## Challenges
 
 This has been the first project I built in a team, using Git and Github.
 
-As well this has been the first time working on top of a code wrote by someone else.
+This has been the first time working on top code written by someone else.
 
-One of our biggest challenges has been embedded data and authorization token.
+One of our biggest challenges has been embedded data and authorization tokens.
 
-Overall I enjoyed working on this project and working in well organized team.
+Overall I enjoyed working on this project and working in a well organised team.
 
 
 ## Future Features
 
 - Create a Notification feature for expiring food.
 
-## Key Learning
+## Key Learnings
 
-This project told me a lot, especially about teamwork while coding.
+This project taught me a lot, especially about teamwork while coding.
 Overall I learned more doing this project than I had ever done before, it was by far the largest and most complicated project I have ever undertaken.
 
 One of the most crucial aspects I learnt from this project was the planning. To my disadvantage, I hadn't spent too much time planning on Projects 1 & 2 but here we made a concerted effort not to begin with any coding until we were happy with our plan.
