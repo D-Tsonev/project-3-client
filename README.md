@@ -2,7 +2,7 @@
 
 # Food-Invy A Fullstack MERN App
 
-<img src= './src/assest/demo.gif'  />
+<img src= './src/assest/demo.gif' width="600"  />
 
 ## Overview
 
@@ -251,7 +251,7 @@ While my group worked on the recipe, inventory and the shared food pages I took 
 
 
 
-<img src='./src/assest/register.png' width="440" height="320"/> <img src='./src/assest/login.png' width="440" height="320"/> 
+<img src='./src/assest/register.png' width="485" height="350" />    <img src='./src/assest/login.png' width="485" height="350" /> 
 
 
 React Hooks were used for both forms.
@@ -373,23 +373,4 @@ Overall I learned more doing this project than I had ever done before, it was by
 One of the most crucial aspects I learnt from this project was the planning. To my disadvantage, I hadn't spent too much time planning on Projects 1 & 2 but here we made a concerted effort not to begin with any coding until we were happy with our plan.
 
 One aspect I think our group could have improved on was asking each other for help sooner. Occasionally we would spend too long on a task without asking for help, losing valuable time, when a group member could have helped out with added knowledge.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
