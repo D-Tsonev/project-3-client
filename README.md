@@ -352,7 +352,7 @@ I learned how to work on a team project with Github also I was able to help othe
 
 ## Challenges
 
-This has been the first project I built in a team, using Git and Github.
+This has been the first project I built in a team, using Git and GitHub.
 
 This has been the first time working on top code written by someone else.
 
